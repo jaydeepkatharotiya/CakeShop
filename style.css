@@ -1,0 +1,160 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.main
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgb(0,0,0,0.7)),url("Image/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.main ul
+{
+    list-style-type: none;
+    margin-top: 22px;
+}
+.main ul li
+{
+    display: inline-block;
+    text-align: center;
+    margin-left: 4%;
+}
+.main ul li a
+{
+    color: #333;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main ul li a:hover
+{
+    color: #e6a84c;
+}
+.gst
+{
+    border: none;
+    background-color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    font-weight: bold;
+}
+.gst:hover
+{
+    color: #e6a84c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.prd
+{
+    padding-top: 45px;
+    text-align: center;
+}
+.na
+{
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+.na:hover
+{
+    text-decoration: none;
+    color: #e6a84c;
+}
+.ba
+{
+     border: none;
+    background-color: #e6a84c;
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.ba:hover
+{
+    color: #333;
+    background-color: #ffffff;
+    border: 2px solid #e6a84c;
+    text-decoration: none;
+}
+
+.hstr
+{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.aus
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgb(0,0,0,0.7)),url("Image/abg.jpg");
+    height: 700px;
+    margin-top: 105px;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ocake
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.ceo
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.contact
+{
+    margin: 50px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #e6a84c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+    color: #e6a84c;
+    border: 2px solid #e6a84c;
+}
+
+
+
+.footer
+{
+    margin-top: 50px;
+    background-color: #191919;
+    color: #444444;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
